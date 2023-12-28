@@ -1,3 +1,11 @@
-.slick-prev:before, .slick-next:before {
-    color: #333;
+/* Light mode styles */
+.slick-prev:before,
+.slick-next:before {
+  color: #d3d3d3; /* Default color for light mode */
+}
+
+/* Dark mode styles */
+.dark .slick-prev:before,
+.dark .slick-next:before {
+  color: #333; /* Color for dark mode */
 }

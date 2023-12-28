@@ -20,8 +20,18 @@ function Navbar() {
     }
   }
 
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [darkMode]);
+
   return (
-    <nav className={`text-dark w-full bg-light px-5 py-3 text-center flex justify-center items-center ${isSticky ? 'fixed top-0 z-50 shadow' : ''}`} id='home'>
+    <nav className={`dark:text-dark text-med dark:bg-light bg-dark w-full px-5 py-3 text-center flex justify-center items-center ${isSticky ? 'fixed top-0 z-50 shadow' : ''}`} id='home'>
       <a href="#home" onClick={(e) => smoothScrollTo(e, '#home')} className="mx-5 text-white no-underline block my-2.5 text-lg hover:text-med hover:rounded hover:px-2">
         Home
       </a>
@@ -29,14 +39,14 @@ function Navbar() {
         About
       </a>
       <a href="#technologies" onClick={(e) => smoothScrollTo(e, '#technologies')} className="mx-5 text-white no-underline block my-2.5 text-lg hover:text-med hover:rounded hover:px-2">
-        Technologies
+        Skills
       </a>
       <a href="#projects" onClick={(e) => smoothScrollTo(e, '#projects')} className="mx-5 text-white no-underline block my-2.5 text-lg hover:text-med hover:rounded hover:px-2">
         Projects
       </a>
-      <a href="#links" onClick={(e) => smoothScrollTo(e, '#links')} className="mx-5 text-white no-underline block my-2.5 text-lg hover:text-med hover:rounded hover:px-2">
-        Links
-      </a>
+      <button onClick={() => setDarkMode(!darkMode)}>
+        <img className='w-5 h-5' src='/images/darkmode.png' alt='DarkMode'></img>
+      </button>
     </nav>
   );
 }
