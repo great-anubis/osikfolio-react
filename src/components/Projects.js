@@ -27,7 +27,7 @@ function Projects() {
         id: "osikfolio",
         title: "Osikfolio: a personal portfolio",
         description: "Created a personal portfolio website showcasing web development skills. Implemented a responsive and visually appealing user interface using React and Tailwind CSS, ensuring a seamless user experience.",
-        link: "#",
+        link: "https://greato.vercel.app/",
         imageUrl: "/images/portfolio.png",
         techStack: ['/images/react.png', '/images/tailwind.png', '/images/git.png', '/images/node.png']
     },
@@ -35,7 +35,7 @@ function Projects() {
         id: "bloomingMachine",
         title: "Blooming Machine",
         description: "Developed a machine learning model using Python and Scikit-learn to classify iris species, achieving 90% accuracy on the test dataset. The project involved data visualization, model documentation, and emphasized the machine learning pipeline process.",
-        link: "#",
+        link: "https://github.com/great-anubis/Iris-Insights",
         imageUrl: "/images/blooming.png",
         techStack: ['/images/python.png', '/images/scikit.png', '/images/git.png', '/images/matplotlib.png', '/images/pandas.png', '/images/numpy.png', '/images/machine.png']
     },
@@ -43,7 +43,7 @@ function Projects() {
         id: "hangryB",
         title: "Hangry Boids",
         description: "Contributed to a team project for a self-sustaining ecosystem simulation game. Focused on game core mechanics, script creation, and realistic entity behavior simulation using C# and Unity Engine. Demonstrated dedication and consistent contribution over 60+ days of development.",
-        link: "#",
+        link: "https://nsmboog.itch.io/boids-ecosystem",
         imageUrl: "/images/boid.png",
         techStack: ['/images/c-sharp.png', '/images/unity.png', '/images/git.png', '/images/vscode.webp']
     },
@@ -51,7 +51,7 @@ function Projects() {
         id: "autoVehicle",
         title: "Autonomous Vehicle Algorithm",
         description: "Led a team in developing a Java utility class for a moral decision-making simulation in autonomous vehicles. The project involved creating diverse scenarios, ensuring code quality, and contributing to the simulation's successful execution.",
-        link: "#",
+        link: "https://github.com/great-anubis/auto-vehicle",
         imageUrl: "/images/vehicle.png",
         techStack: ['/images/java-logo.png', '/images/git.png']
     }
@@ -65,26 +65,28 @@ function Projects() {
             <Slider {...settings}>
                 {projects.map((project) => (
                     <div key={project.id} className="h-[400px] w-[200px] p-2.5 rounded-lg m-auto relative">
-                        <div style={{ backgroundImage: `url(${project.imageUrl})` }} className="w-full h-full bg-cover bg-center rounded-lg ">
-                            <div className="w-full h-full absolute top-0 left-0 dark:bg-light bg-dark  bg-opacity-70 dark:bg-opacity-50 rounded-lg"></div>
-                            
-                            {/* Project Description */}
-                            <div className="absolute top-0 left-0 p-4">
-                                <div className="projects-description p-4 rounded-lg  mt-10">
-                                    <h3 className='text-center text-2xl font-medium mb-2'>{project.title}</h3>
-                                    <p className='text-center'>{project.description}</p>
+                        <a href={project.link}>
+                            <div style={{ backgroundImage: `url(${project.imageUrl})` }} className="w-full h-full bg-cover bg-center rounded-lg ">
+                                <div className="w-full h-full absolute top-0 left-0 dark:bg-light bg-dark  bg-opacity-70 dark:bg-opacity-50 rounded-lg"></div>
+                                {/* Project Description */}
+                                <div className="absolute top-0 left-0 p-4">
+                                    <div className="projects-description p-4 rounded-lg  mt-10">
+                                        <h3 className='text-center text-2xl font-medium mb-2'>{project.title}</h3>
+                                        <p className='text-center'>{project.description}</p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            {/* Tech Stack */}
-                            <div className="absolute bottom-5 left-0 right-0 p-4">
-                                <div className="tech-stack flex justify-center items-center">
-                                    {project.techStack.map((tech, index) => (
-                                        <img key={index} src={tech} alt="Tech" className="h-6 w-6 mx-1" /> // Adjust size as needed
-                                    ))}
+                                {/* Tech Stack */}
+                                <div className="absolute bottom-5 left-0 right-0 p-4">
+                                    <div className="tech-stack flex justify-center items-center">
+                                        {project.techStack.map((tech, index) => (
+                                            <img key={index} src={tech} alt="Tech" className="h-6 w-6 mx-1" /> // Adjust size as needed
+                                        ))}
+                                    </div>
                                 </div>
+            
                             </div>
-                        </div>
+                        </a>
                     </div>
                 ))}
             </Slider>
