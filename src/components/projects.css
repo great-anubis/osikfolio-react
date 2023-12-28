@@ -9,3 +9,12 @@
 .dark .slick-next:before {
   color: #333; /* Color for dark mode */
 }
+
+@media (max-width: 500px) {
+  .project-slide {
+      max-width: 490px;
+  }
+  .slick-prev, .slick-next {
+      display: none !important;
+  }
+}

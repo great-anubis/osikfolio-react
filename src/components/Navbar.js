@@ -31,7 +31,7 @@ function Navbar() {
   }, [darkMode]);
 
   return (
-    <nav className={`dark:text-dark text-med dark:bg-light lg:text-lg text-md bg-dark px-5 py-3 text-center flex justify-center items-center ${isSticky ? 'fixed top-0 z-50 shadow' : ''}`} id='home'>
+    <nav className={`dark:text-dark w-max text-med dark:bg-light lg:text-lg text-md bg-dark px-5 py-3 text-center flex justify-center items-center ${isSticky ? 'fixed top-0 z-50' : ''}`} id='home'>
       <a href="#about" onClick={(e) => smoothScrollTo(e, '#about')} className="mx-5 text-white no-underline block my-2.5 hover:text-med hover:rounded hover:px-2">
         About
       </a>
