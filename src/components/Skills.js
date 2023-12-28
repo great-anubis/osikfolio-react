@@ -19,9 +19,9 @@ function Skills() {
         <img className="m-5 rounded w-15 h-10 lg:w-30 lg:h-20" src="/images/mongodb.png" alt="MongoDB" />
         <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24" src="/images/vscode.webp" alt="Vscode" />
         <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24" src="/images/git.png" alt="Git" />
-        <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24 py-5" src="/images/scikit.png" alt="Scikit-learn" />
+        <img className="m-5 rounded w-12 h-18 lg:w-24 lg:h-24 py-5" src="/images/scikit.png" alt="Scikit-learn" />
         <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24" src="/images/numpy.png" alt="NumPy" />
-        <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24 py-5" src="/images/pandas.png" alt="Pandas" />
+        <img className="m-5 rounded w-12 h-18 lg:w-24 lg:h-24 py-5" src="/images/pandas.png" alt="Pandas" />
         <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24" src="/images/machine.png" alt="Machinelearning" />
         <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24" src="/images/matplotlib.png" alt="Matplotlib" />
         <img className="m-5 rounded w-12 h-12 lg:w-24 lg:h-24" src="/images/seaborn.png" alt="Seaborn" />
