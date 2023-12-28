@@ -59,7 +59,7 @@ function Projects() {
   ];
   
   return (
-        <div className="dark:text-dark text-med dark:bg-light bg-dark m-auto py-5 my-5 flex flex-col items-center w-full" id="projects">
+        <div className="dark:text-dark text-med dark:bg-light bg-dark m-auto py-5 my-5 flex flex-col items-center" id="projects">
             <h2 className="text-3xl font-semibold mb-3 text-center">My Projects</h2>
             <div className="w-full max-w-lg mx-auto" id="projectCarousel">
             <Slider {...settings}>

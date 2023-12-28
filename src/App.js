@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className=" dark:bg-light bg-dark m-auto py-5 flex flex-col items-center w-full" id="content">
+    <div className=" dark:bg-light bg-dark m-auto py-5 flex flex-col items-center " id="content">
       <Navbar />
       <Header />
       <About />

@@ -13,16 +13,16 @@ function Header() {
       
       <nav className="flex flex-wrap justify-evenly mx-20 text-center">
         <a href="mailto:greatosik@gmail.com" aria-label="Contact me via Email">
-          <img className="m-5 rounded w-12 h-12" src="/images/email.png" alt="Email" />
+          <img className="m-auto lg:m-5 rounded w-6 h-6 lg:w-12 lg:h-12" src="/images/email.png" alt="Email" />
         </a>
         <a href="https://github.com/great-anubis" target="_blank" rel="noreferrer" aria-label="Visit my GitHub Profile" >
-          <img className="m-5 rounded w-12 h-12" src="/images/github.png" alt="Github" />
+          <img className="m-auto lg:m-5 rounded w-6 h-6 lg:w-12 lg:h-12" src="/images/github.png" alt="Github" />
         </a>
         <a href="https://www.linkedin.com/in/great-osikhueme" target="_blank" rel="noreferrer" aria-label="Connect on LinkedIn">
-          <img className="m-5 rounded w-12 h-12" src="/images/linkedin.png" alt="Linkedin" />
+          <img className="m-auto lg:m-5 rounded w-6 h-6 lg:w-12 lg:h-12" src="/images/linkedin.png" alt="Linkedin" />
         </a>
         <a href="resume.pdf" target="_blank" rel="noreferrer" aria-label="View my Resume">
-          <img className="m-5 rounded w-12 h-12" src="/images/resume.png" alt="Resume" />
+          <img className="m-auto lg:m-5 rounded w-6 h-6 lg:w-12 lg:h-12" src="/images/resume.png" alt="Resume" />
         </a>
       </nav>
     </header>
