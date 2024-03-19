@@ -6,31 +6,30 @@ function About() {
       <div className="w-9/10 mx-auto">
         <h2 className="text-3xl font-semibold mb-3">Who Am I</h2>
         <p>
-          Hey there! I'm Great Osikhueme, a Full Stack Developer living in New York. 
-          I'm studying Computer Science at Mercy University, where I'm gaining expertise 
-          in both front-end and back-end development. One of my focus areas is machine 
-          learning. I had the opportunity to showcase my skills in a project called 
-          'Iris Insights; Blooming Machine Learning.' It's all about visualizing data 
-          and uncovering its stories.
+          Hello! I'm Great Osikhueme, a passionate Full Stack Developer from New York City. 
+          Currently, I'm deepening my knowledge in Computer Science at Mercy University, 
+          focusing on a blend of front-end, back-end, and machine learning technologies. 
+          My journey has been significantly enriched by the Techwise Cohort 2 Program, backed by Google, 
+          where I've honed my skills in React, NodeJS, and Python, among others.
         </p>
         <p>
-          I've had a foundation through the Techwise Cohort 2 Program supported by 
-          Google, which has allowed me to acquire various skills, from React for 
-          creating user interfaces to NodeJS for server-side development. Additionally, 
-          I have experience with Python. I even dabbled in game development using Unity.
+          My project portfolio includes 'Blooming Iris Insights,' a machine learning venture that explores the 
+          intricacies of iris flower species classification through data visualization. 
+          This project is a testament to my fascination with uncovering the narratives hidden within data.
         </p>
         <p>
-          Working as an IT Specialist Assistant at Mercy College has sharpened my 
-          problem-solving abilities, while my dedication to community service and 
-          leadership shines through my work with Buildon. Whether developing web 
-          applications like 'Painter' or simulating ecosystems with 'Hangry Boids,' my 
-          main objective is always to provide solutions that excel in performance and 
-          user experience.
+          In addition to my academic pursuits, my role as an IT Specialist Assistant at Mercy University 
+          has fine-tuned my technical and problem-solving skills. I've also dedicated myself to community service and leadership through BuildOn, 
+          reflecting my commitment to making a meaningful impact beyond the digital world.
         </p>
         <p>
-          Outside of coding, you'll often find me leading projects and collaborating 
-          with peers. Together, we can push the boundaries of technology and create 
-          solutions that make an impact. Let's connect and bring our ideas to life!
+          From web development projects like creating sophisticated user interfaces to engaging in game development with Unity, 
+          my ultimate goal is to deliver solutions that stand out for their performance and user experience. 
+          'Hangry Boids,' a simulation game, is a prime example of my efforts to blend entertainment with technological innovation.
+        </p>
+        <p>
+          Beyond the keyboard, I'm a project leader and collaborator, always eager to explore the limits of what we can achieve with technology. 
+          I believe in the power of collective creativity to generate solutions that matter. I'm excited to connect and transform our ideas into reality!        
         </p>
       </div>
     </div>
